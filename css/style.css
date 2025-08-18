@@ -103,7 +103,7 @@ body {
   display: block;
   position: absolute;
   width: 110%;
-  height: 30;
+  height: 30%;
   bottom: 0;
   background: linear-gradient(
     0deg,
@@ -376,3 +376,4 @@ footer .creadit a:hover {
     font-size: 55%;
   }
 }
+
