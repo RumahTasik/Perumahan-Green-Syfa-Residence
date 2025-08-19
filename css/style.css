@@ -102,7 +102,7 @@ body {
   content: "";
   display: block;
   position: absolute;
-  width: 110%;
+  width: 100%;
   height: 30%;
   bottom: 0;
   background: linear-gradient(
@@ -248,7 +248,7 @@ body {
 
 .lokasi .row {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1rem;
   background-color: #222;
   flex-wrap: wrap;
   padding: 3rem;
@@ -369,6 +369,20 @@ footer .creadit a:hover {
     object-fit: cover;
     object-position: center;
   }
+
+  .lokasi .row {
+    display: flex;
+    margin-top: 2rem;
+    background-color: #222;
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+
+  .lokasi .row .map {
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+  }
 }
 /* Mobile */
 @media (max-width: 450px) {
@@ -376,4 +390,3 @@ footer .creadit a:hover {
     font-size: 55%;
   }
 }
-
