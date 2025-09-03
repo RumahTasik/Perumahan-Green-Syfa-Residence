@@ -24,7 +24,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.4rem 7%;
+  padding-left: 50px;
   background-color: rgba(1, 1, 1, 0.8);
   border-bottom: 1px solid #2aa52aff;
   position: fixed;
@@ -387,3 +387,4 @@ footer .creadit a:hover {
     font-size: 55%;
   }
 }
+
