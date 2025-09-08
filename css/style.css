@@ -17,14 +17,13 @@ body {
   background-color: var(--bg);
   color: #101010;
 }
-
 /* navbar */
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.4rem 7%;
+  padding-left: 50px;
   background-color: rgba(1, 1, 1, 0.8);
   border-bottom: 1px solid #2aa52aff;
   position: fixed;
@@ -34,15 +33,8 @@ body {
   z-index: 9999;
 }
 
-.navbar .navbar-logo {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #ffd700;
-  font-style: italic;
-}
-
-.navbar .navbar-logo span {
-  color: #228b22;
+.navbar .logo img {
+  height: 6.4rem;
 }
 
 .navbar .navbar-nav a {
@@ -90,8 +82,9 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   background-image: url("../img/header-bg.jpeg");
-  background-repeat: none-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -222,6 +215,10 @@ body {
 .menu .row .img {
   weight: 50%;
 }
+
+.img img {
+  height: 40rem;
+}
 .menu .detail {
   text-align: center;
   argin-top: 1rem;
@@ -247,7 +244,7 @@ body {
 
 .lokasi .row {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1rem;
   background-color: #222;
   flex-wrap: wrap;
   padding: 3rem;
@@ -367,6 +364,20 @@ footer .creadit a:hover {
     height: 24rem;
     object-fit: cover;
     object-position: center;
+  }
+
+  .lokasi .row {
+    display: flex;
+    margin-top: 2rem;
+    background-color: #222;
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+
+  .lokasi .row .map {
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
   }
 }
 /* Mobile */

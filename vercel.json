@@ -1,0 +1,46 @@
+{
+  "rewrites": [
+    {
+      "source": "/R1/",
+      "destination": "/R1/R1.html"
+    },
+    {
+      "source": "/R2/",
+      "destination": "/R2/R2.html"
+    },
+    {
+      "source": "/R3/",
+      "destination": "/R3/R3.html"
+    },
+    {
+      "source": "/R4/",
+      "destination": "/R4/R4.html"
+    },
+    {
+      "source": "/gallery/",
+      "destination": "/gallery/gallery.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/layanan/index.html#layanan",
+      "destination": "/layanan",
+      "permanent": true
+    },
+    {
+      "source": "/portfolio/index.html#portfolio",
+      "destination": "/portfolio",
+      "permanent": true
+    },
+    {
+      "source": "/kontak/index.html#kontak",
+      "destination": "/kontak",
+      "permanent": true
+    }
+  ]
+}
