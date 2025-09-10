@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/Jasmine/",
+      "destination": "/Jasmine/jasmine.html"
+    },
+    {
       "source": "/R1/",
       "destination": "/R1/R1.html"
     },

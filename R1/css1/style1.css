@@ -240,6 +240,28 @@ body {
   margin-top: 6rem;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin: 20px 0;
+  font-size: 15px;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px 14px;
+  text-align: left;
+}
+th {
+  background-color: #000000ff;
+  color: #ffffffff;
+  font-weight: bold;
+}
+tr {
+  background-color: #fafafa;
+}
+
 /* media queries*/
 
 /* Laptop */
