@@ -5,6 +5,10 @@
       "destination": "/Jasmine/jasmine.html"
     },
     {
+      "source": "/Gallery/",
+      "destination": "/Gallery/gallery.html"
+    },
+    {
       "source": "/R1/",
       "destination": "/R1/R1.html"
     },

@@ -361,7 +361,7 @@ footer .creadit a:hover {
     font-size: 1.5rem;
   }
   .menu .row .img img {
-    height: 24rem;
+    height: 18rem;
     object-fit: cover;
     object-position: center;
   }
@@ -384,5 +384,10 @@ footer .creadit a:hover {
 @media (max-width: 450px) {
   html {
     font-size: 55%;
+  }
+  .menu .row .img img {
+    height: 10rem;
+    object-fit: cover;
+    object-position: center;
   }
 }
