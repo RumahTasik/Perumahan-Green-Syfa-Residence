@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/img/Favor/Icon.jpeg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Mystyle -->
+  </head>
+  <body>
+    <h1>Gallery</h1>
+
+    <!--Navbar start-->
+    <nav class="navbar">
+      <div class="logo"><img src="/img/Favor/logo.svg" /></div>
+      <div class="navbar-nav">
+        <a href="../index.html#Home">Home</a>
+        <a href="../index.html#about">Tentang Kami</a>
+        <a href="../index.html#Rumah">Jenis-Jenis Rumah</a>
+        <a href="../index.html#lokasi">Lokasi</a>
+        <a href="/Gallery/gallery.html">Gallery</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!--Navbar end-->
+
+    <div class="judul">Gallery</div>
+
+    <!-- Galeri Gambar -->
+    <div class="row">
+      <div class="column">
+        <img
+          src="../img/rumah/J2.jpeg"
+          class="hover-shadow gallery-img"
+          data-index="1"
+          alt="Rumah Jasmine"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="../img/rumah/R1.png"
+          class="hover-shadow gallery-img"
+          data-index="2"
+          alt="Rumah Bougenville"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="../img/rumah/R2.png"
+          class="hover-shadow gallery-img"
+          data-index="3"
+          alt="Rumah Ruko"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="../img/rumah/R3.png"
+          class="hover-shadow gallery-img"
+          data-index="4"
+          alt="Rumah Edelweiss"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="../img/rumah/R4.png"
+          class="hover-shadow gallery-img"
+          data-index="5"
+          alt="Rumah Salvia"
+        />
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+      <span class="close cursor">&times;</span>
+      <div class="modal-content">
+        <div class="mySlides">
+          <div class="numbertext">1 / 5</div>
+          <img src="../img/rumah/J2.jpeg" alt="Rumah Jasmine" />
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">2 / 5</div>
+          <img src="../img/rumah/R1.png" alt="Rumah Bougenville" />
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">3 / 5</div>
+          <img src="../img/rumah/R2.png" alt="Rumah Ruko" />
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">4 / 5</div>
+          <img src="../img/rumah/R3.png" alt="Rumah Edelweiss" />
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">5 / 5</div>
+          <img src="../img/rumah/R4.png" alt="Rumah Salvia" />
+        </div>
+
+        <!-- Navigasi -->
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+
+        <!-- Caption -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail -->
+        <div class="thumbnails">
+          <img
+            class="demo"
+            src="../img/rumah/J2.jpeg"
+            data-index="1"
+            alt="Rumah Jasmine"
+          />
+          <img
+            class="demo"
+            src="../img/rumah/R1.png"
+            data-index="2"
+            alt="Rumah Bougenville"
+          />
+          <img
+            class="demo"
+            src="../img/rumah/R2.png"
+            data-index="3"
+            alt="Rumah Ruko"
+          />
+          <img
+            class="demo"
+            src="../img/rumah/R3.png"
+            data-index="4"
+            alt="Rumah Edelweiss"
+          />
+          <img
+            class="demo"
+            src="../img/rumah/R4.png"
+            data-index="5"
+            alt="Rumah Salvia"
+          />
+        </div>
+      </div>
+    </div>
+    <!--feather url-->
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!--Feather-->
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
