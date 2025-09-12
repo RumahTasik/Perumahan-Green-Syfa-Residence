@@ -343,4 +343,10 @@ tr {
   html {
     font-size: 55%;
   }
+
+  .menu .row .img img {
+    height: 14.6rem;
+    object-fit: cover;
+    object-position: center;
+  }
 }
