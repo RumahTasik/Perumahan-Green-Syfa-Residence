@@ -5,8 +5,8 @@
       "destination": "/Jasmine/jasmine.html"
     },
     {
-      "source": "/Gallery/",
-      "destination": "/Gallery/gallery.html"
+      "source": "/gallery/",
+      "destination": "/gallery/gallery.html"
     },
     {
       "source": "/R1/",
