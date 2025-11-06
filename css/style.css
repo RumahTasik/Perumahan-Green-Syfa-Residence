@@ -204,6 +204,10 @@ body {
   line-height: 1.4;
 }
 
+.menu p span {
+  font-weight: 700;
+}
+
 .menu .row {
   text-align: center;
   display: flex;
